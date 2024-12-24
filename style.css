@@ -1,0 +1,42 @@
+/* Styling for navbar */
+.logo-img{
+    width: 91px;
+    height: 34px;
+}
+
+/* common style for links or anchor tag */
+.navbarlinks{
+    text-decoration: none;
+    color : #2D2F31;
+    font-size: 14px;
+}
+
+.navbarlinks:hover{
+    color: #5022c3;
+}
+
+#explore{
+
+}
+
+.search-bar {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.753);
+    border-radius: 25px;
+    gap: 5px; 
+    padding-top: 5px;
+    padding-left: 4px; 
+    min-width: 261.52px;
+    min-height: 46px;
+    background-color: rgb(231, 228, 223);
+}
+.search-bar input {
+    border: none;
+    outline: none; 
+    flex: 1; 
+    background-color: rgb(231, 228, 223);
+}
+
